@@ -1,0 +1,309 @@
+*{
+  
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container-grid{
+    height: 100vh;
+    display: grid;
+   /* gap: 1rem;*/
+    grid-template-rows: 1fr 5fr 5fr 1fr;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr;
+    grid-template-areas: " header header header header" 
+    "aside section section section"
+    "aside main main main"
+    "footer footer footer footer";
+}
+
+.container-grid-index{
+    height: 100vh;
+    display: grid;
+   /* gap: 1rem;*/
+    grid-template-rows: 1fr 5fr 5fr 1fr;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr;
+    grid-template-areas: " header header header header" 
+    "section section section section"
+    "footer footer footer footer";
+}
+
+.container-grid-contactos{
+    height: 100vh;
+    display: grid;
+   /* gap: 1rem;*/
+    grid-template-rows: 1fr 5fr 5fr 1fr;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr;
+    grid-template-areas: " header header header header" 
+    "section section section section"
+    "footer footer footer footer";
+}
+
+.container-grid-servicios{
+    height: 100vh;
+    display: grid;
+   /* gap: 1rem;*/
+    grid-template-rows: 1fr 5fr 5fr 1fr;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr;
+    grid-template-areas: " header header header header" 
+    "section section section section"
+    "footer footer footer footer";
+}
+
+
+header{
+grid-area: header;
+background-color: rgb(231, 231, 231);
+display: flex;
+flex-direction: column;
+
+}
+
+.primerDivision{
+display: flex;
+flex-direction: row;
+
+
+}
+.slobic{
+width: 100%;
+display: flex;
+flex-direction: column;
+
+}
+
+.slogan{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1rem;
+    font-size: 2rem;
+    height: 8rem;
+}
+.cabecera__lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: orange;
+    flex-wrap: wrap;
+}
+.cabecera__lista_item{
+    margin: 1rem;
+}
+
+
+.bic{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 2rem;  
+    flex-wrap: wrap;
+}
+
+.bic_item{
+    margin: 1rem;
+    margin-right: 5rem;
+    
+}
+
+
+main{
+grid-area: main;
+background-color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+}
+
+.img_sec_cent{
+    display: flex;
+    padding: 0.5rem;
+    background-color: orange;
+    border-radius: 10px;
+    margin: 2rem;
+    
+    
+}
+
+.productos{
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 10rem;
+    background-color: orange;
+    border-radius: 10px;
+    
+}
+    
+section{
+grid-area: section;
+background-color: rgb(65, 63, 63);
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+aside{
+grid-area: aside;
+background-color: rgb(230, 230, 230);
+}
+
+.aside_items{
+    margin: 1rem;
+    list-style: none;
+    font-size: large;
+}
+
+.h3-prod{
+    text-align: center;
+}
+
+
+footer{
+grid-area: footer;
+
+
+}
+
+.wsp{
+    width: 80px;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    
+
+}
+
+.contenedorMarcas{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.footer-contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(65, 63, 63);
+}
+
+
+.footer-contacto--item{
+    
+    margin: 3rem;
+    background-color: orange;
+    border-radius: 10px;
+    
+}
+
+.nosotrosContainer{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.np{
+    text-align: justify;
+    margin: 1rem;
+}
+
+.serviciosContainer{
+    display: flex;
+    flex-direction: ROW;
+
+}
+.nps{
+    text-align: justify;
+    margin: 1rem;
+}
+
+transition: all 1.5s;
+}
+
+.logo:hover {
+    transform: rotate(360deg); 
+}
+
+.footer-contacto--item:hover {
+
+    background-color: rgb(226, 102, 65) ;
+
+}
+
+.slogan { 
+    color: orange;  
+    animation: move 2s ease-in-out infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(0, -20%);
+    }
+
+    50% {
+        text-shadow: 0 25px 50px black;
+    }
+  
+}
+
+.aside_items{
+    transition: all 0.5s;
+}
+.aside_items:hover {
+    transform: translate(15%,0);
+}
+
+.cabecera__lista_item{
+    transition: all 0.5s;
+}
+
+.cabecera__lista_item:hover{
+    transform: scale(1.2);
+}
+
+
+/*FIN ANIMACIONES TRANSICIONES TRANSFORMACIONES*/
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
