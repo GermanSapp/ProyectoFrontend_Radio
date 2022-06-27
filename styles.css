@@ -222,7 +222,17 @@ flex-wrap: wrap;
     margin: 1rem;
 }
 
-transition: all 1.5s;
+/*ANIMACIONES TRANSICIONES TRANSFORMACIONES */
+.img_sec_cent{
+    transition: all 1s;
+}
+
+.img_sec_cent:hover {
+    transform: scale(1.2);
+}
+
+.logo{
+    transition: all 1.5s;
 }
 
 .logo:hover {
@@ -268,42 +278,3 @@ transition: all 1.5s;
 
 
 /*FIN ANIMACIONES TRANSICIONES TRANSFORMACIONES*/
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
- 
